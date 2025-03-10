@@ -42,9 +42,9 @@ const Header = () => {
                         }}>
                             <img src={'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80s'} alt="" className='w-full h-full rounded-[50%]' />
                             <div className={`absolute flex flex-col w-[200px] py-2 top-[130%] right-0 bg-white rounded-lg shadow-lg ${isUserOpen?'scale-100 duration-400 transition-transform':'scale-0 duration-400 transition-transform'}`}>
-                                <Link className='capitalize hover:bg-gray-200 px-4 py-2'>your profile</Link>
-                                <Link className='capitalize hover:bg-gray-200 px-4 py-2'>settings</Link>
-                                <Link className='capitalize hover:bg-gray-200 px-4 py-2'>sign out</Link>
+                                <Link to={'/'} className='capitalize hover:bg-gray-200 px-4 py-2'>your profile</Link>
+                                <Link to={'/'} className='capitalize hover:bg-gray-200 px-4 py-2'>settings</Link>
+                                <Link to={'/'} className='capitalize hover:bg-gray-200 px-4 py-2'>sign out</Link>
                             </div>
                         </Link>
                     </div>
