@@ -7,8 +7,8 @@ const Header = () => {
     const [isUserOpen,setIsUserOpen]=useState(false);
     const currentLocation=useLocation()
     return (
-        <header className='max-w-[1920px] bg-[#363131] w-full mx-auto'>
-            <nav>
+        <header className='flex justify-center'>
+            <nav className='fixed top-0 max-w-[1920px] mx-auto bg-[#363131] w-full '>
                 <input type="checkbox" name="" id="togglemenu" className='hidden'/>
             
                 <div className='flex items-center justify-between px-4 py-3 max-md:relative'>
